@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.section {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.jutify-start {
+  justify-content: start;
+}
+
+.jutify-center {
+  justify-content: center;
+}
+
+.jutify-end {
+  justify-content: end;
+}
+
+.jutify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.btn {
+  padding: 12px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.border {
+  border: 1px solid #7928fe;
+}
+
+.r-12 {
+  border-radius: 12px;
+}
+
+.r-40 {
+  border-radius: 40px;
+}
+
+.ml-16 {
+  margin: 16px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.ml-32 {
+  margin: 32px;
+}
+
+.ml-32 {
+  margin-left: 32px;
+}
+
+.mr-32 {
+  margin-right: 32px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.bg-purple {
+  background-color: #141920;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header {
+  padding: 15px 0;
+  color: white;
+}
+.header .header_left .logo {
+  width: 98px;
+}
+.header .header_left ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+.header .header_left ul li a {
+  color: #0f1014;
+  font-size: 14px;
+  font-weight: 500;
+}
+.header .header_left ul li a.active, .header .header_left ul li a:hover {
+  color: #7928fe;
+}
+.header .header_right ul {
+  list-style: none;
+}
+.header .header_right ul li {
+  text-align: center;
+}
+.header .header_right ul li a {
+  margin: 1px;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #141920;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+}
+.header .header_right ul li a.active {
+  color: #fff;
+  background-color: #141920;
+  border-radius: 100%;
+  border: 1px solid #141920;
+}
+.header .header_right ul li a:hover {
+  background-color: #fff;
+  color: #141920;
+  border: 1px solid #141920;
+  border-radius: 100%;
+}
+.header .header_right a {
+  margin-left: 30px;
+  font-weight: 500;
+  border: 1px;
+  transition: 0.4s ease;
+}
+.header .header_right a:hover {
+  background-color: #833ff1;
+  border: 1px soli #fff;
+}
+.header .header_right .basket {
+  position: relative;
+  text-align: right;
+}
+.header .header_right .basket-img {
+  font-size: 24px;
+}
+
+.sidebar {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
